@@ -212,32 +212,7 @@ def checkfinish()->bool:
 
 
 pieceOutsideHome = False
-initColumns = {
-    1: Column(1, 0),
-    2: Column(2, 0),
-    3: Column(3, 0),
-    4: Column(4, 0),
-    5: Column(5, 0),
-    6: Column(6, 0),
-    7: Column(7, 0),
-    8: Column(8, 0),
-    9: Column(9, 0),
-    10: Column(10, 0),
-    11: Column(11, 0),
-    12: Column(12, 0),
-    13: Column(13, 0),
-    14: Column(14, 0),
-    15: Column(15, 1, "white"),
-    16: Column(16, 0),
-    17: Column(17, 0),
-    18: Column(18, 1, "black"),
-    19: Column(19, 0),
-    20: Column(20, 0),
-    21: Column(21, 0),
-    22: Column(22, 0),
-    23: Column(23, 0),
-    24: Column(24, 1, "white"),
-}
+
 
 button1 = Button(
     "Roll",
